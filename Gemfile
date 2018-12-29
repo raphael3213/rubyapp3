@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails',                   '4.2.2'
+gem 'rails',                   '4.2.8'
 gem 'bcrypt',                  '3.1.7'
 gem 'faker',                   '1.4.2'
 gem 'carrierwave',             '0.10.0'
@@ -22,6 +22,7 @@ group :development, :test do
   gem 'byebug',      '3.4.0'
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
+  gem 'binding_of_caller','0.7.3.pre1'
 end
 
 group :test do
