@@ -49,11 +49,15 @@ text-transform: uppercase;
 letter-spacing: -1px;
 padding-top: 9px;
 font-weight: bold;
-}
-#logo:hover {
-color: #fff;
+
+&:hover {
+color: #ff0000;
 text-decoration: none;
 }
+
+}
+
+
 
 footer {
 margin-top: 45px;
